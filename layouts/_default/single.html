@@ -54,11 +54,11 @@
           >{{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span>
       </p>{{ end }}
 
-    {{- if .Site.Params.EnableSharingButtons }}
+    {{ if .Site.Params.EnableSharingButtons }}
       <div class="sharing-buttons">
         {{ partial "sharing-buttons.html" . }}
       </div>
-    {{- end }}
+    {{ end }}
     </div>
     {{ if eq .Type $.Site.Params.contentTypeName }}
       {{ if or .NextInSection .PrevInSection }}
