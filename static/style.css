@@ -5,8 +5,9 @@ body {
     background: #2ea043;
 }
 body.light-theme {
+    --background: #EBF4EB;
     --header: #f7f7ff;
-    --color: #555;
+    --color: #00A000;
 }
 body.dark-theme {
     --background: #10101a;
@@ -69,4 +70,7 @@ h3 {
 
 h4 {
   font-size: 1.025rem;
+}
+.footer {
+    color: #00A000;
 }
