@@ -1,12 +1,24 @@
+body {
+    font-family: 'Input Sans', sans-serif;
+}
 .logo__cursor{
     background: #2ea043;
 }
+body.light-theme {
+    --header: #f7f7ff;
+    --color: #555;
+}
 body.dark-theme {
-    --background: #232425;
-    --header: #1b1c1d;
+    --background: #10101a;
+    --header: #0c0c14;
+    --color: rgba(255, 255, 255, 0.8);
 }
 .logo {
   font-family: monospace, monospace;
+}
+.post-title {
+    font-size: 1.65rem;
+    font-family: 'Input Serif', monospace;
 }
 .sharing-buttons {
     display: flex;
@@ -42,4 +54,19 @@ body.dark-theme {
 .end-content {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: 'Input Serif', Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+h2 {
+  font-size: 1.325rem;
+}
+
+h3 {
+  font-size: 1.075rem;
+}
+
+h4 {
+  font-size: 1.025rem;
 }
